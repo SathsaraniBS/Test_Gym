@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import BMICalculater from "./components/BMICalculater"; 
 import Footer from "./components/Footer";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Contact />
       <BMICalculater />
       <Footer />
+      <ToastContainer theme="dark" position="top-center"/>
     </Router>
   );
 }
